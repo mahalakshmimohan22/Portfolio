@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(209, 209, 177);
+    font-family: 'Carter One', cursive;
+}
+nav ul{   
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+}
+.logo{
+    height: 100px;
+    width: 30px;   
+}
+.crownlogo{
+    height: 100px;
+    width: 100px;
+    align-content:  left;
+    
+}
+#bio-block{
+    display: flex;
+    text-align:end;
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav li a:hover{
+    color: rgb(224, 213, 53) ;
+}
+.header{
+    width:100% ;
+    height: 25vh;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.brand{
+    width:100% ;
+    height: 70vh;
+    background:plum;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.crown{
+    width:30em;
+    height: 10em;
+    border-radius:50% ;
+}
+.kurti{
+    width: 5vw;
+    height: 10vh;
+    border-radius:50%
+}
+.saree{
+    width: 5vw;
+    height: 10vh;
+    border-radius:50%
+}
+.bridalwear{
+    width: 5vw;
+    height: 10vh;
+    border-radius:50%
+}
+.t1space{
+    width: 100%;
+    height: 2em;
+    float: left;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    list-style: none;
+
+}
+.t2space{
+    width: 100%;
+    height: 2em;
+    float: left;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    list-style: none;
+
+}
+.lspace{
+    width: 15%;
+    height: 30px;
+    float: left;
+
+}
+.m1space{
+    width: 10%;
+    height: 30px;
+    float: left;
+
+}
+.m2space{
+    width: 10%;
+    height: 30px;
+    float: left;
+
+}
+
+
+.bkurti{
+    width: 15%;
+    height: 30vh;
+    float: left;   
+    border-radius: 10px;
+    color: black;
+    background: aqua ;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+     
+}
+.bsaree{
+    width: 15%;
+    height: 30vh;
+    float: left; 
+    border-radius: 10px;
+    color: black;
+    background: aqua ;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+    margin-top: 60px;
+}
+.bbridalwear{
+    width: 15%;
+    height: 30vh;
+    float: left;
+    border-radius: 10px;
+    color: black;
+    background: aqua ;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.portfolio{
+    height: 30em;
+    width: 100%;
+ 
+}
+
+
+progress[value]{
+    height: 10px;
+    width: 350px;
+    -webkit-appearance:none;
+   
+}
+
+progress[value]
+::-webkit-progress-bar{
+    background-color: rgb(246, 238, 238);
+    border-radius: 2px; */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25 inset);
+}
+
+::-webkit-progress-value{
+    background-color: rgb(247, 4, 97);
+}
+
+#skills ul{
+    font-size: 1.5em;;
+}
+.p1{
+    width: 15%;
+    height: 30px;
+    float: left;
+    margin-left: 20px;
+    padding-top: 30px;
+    
+}
+.p2{
+    width: 15%;
+    height: 30px;
+    float: left;
+  
+}
+.pbspace{
+    width: 25%;
+    height: 30px;
+    float: left;
+
+}
+.pleftspace{
+    width:20%;
+    height: 30px;
+    float: left;
+
+}
+.demand{
+    width:100% ;
+    height: 5vh;
+    background: rgb(224, 213, 53) ;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.demandd{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+#skills{
+    background-color: rgb(153, 255, 149);
+    width: 100%;
+    height: 55vh;
+}
+.p1 ul{
+    list-style: none;
+}
+.p2 ul{
+    list-style: none;
+}
+
+
+#contact{
+    background-color: rgb(40, 0, 104);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.input{
+    line-height: 2em;
+    width: 350px;
+    border-radius: 3px;
+    border-color: black;
+    margin: 20px 0;
+}
+
+#contact form input:last-child{
+    margin-top: 30px;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+.contact{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio hr{
+    width: 60%;
+    margin-left: 80ex;
+}
+.ww{
+    margin-bottom: 5px;
+}
